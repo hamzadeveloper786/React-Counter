@@ -1,0 +1,61 @@
+* {
+  font-family: 'Josefin Sans', sans-serif;
+font-family: 'Open Sans', sans-serif;
+font-family: 'Quicksand', sans-serif;
+  outline: none!important;
+  box-sizing: border-box!important;
+  text-decoration: none;
+  font-weight: 600;
+}
+body {
+  display: flex;
+  flex-direction: column;
+  justify-content: right;
+  align-items: center;
+  row-gap: 1em;
+  width: 100vw;
+  height: 100vh;
+  background-color: #4e4f52;
+  padding: 0em;
+  overflow-x: hidden;
+  overflow-y: hidden;
+  font-size: 2em;
+  /* color: #66fcf1; */
+  color: #45a29e;
+}
+i,
+p,
+a,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  margin: 0px!important;
+}
+p{
+  box-shadow: rgba(240, 46, 170, 0.4) 0px 5px, rgba(240, 46, 170, 0.3) 0px 10px, rgba(240, 46, 170, 0.2) 0px 15px, rgba(240, 46, 170, 0.1) 0px 20px, rgba(240, 46, 170, 0.05) 0px 25px;
+}
+button.add{
+  border-radius: 10% 25%;
+  box-shadow: rgba(240, 46, 170, 0.4) 5px 5px, rgba(240, 46, 170, 0.3) 10px 10px, rgba(240, 46, 170, 0.2) 15px 15px, rgba(240, 46, 170, 0.1) 20px 20px, rgba(240, 46, 170, 0.05) 25px 25px;
+}
+
+button.sub{
+  border-radius: 25% 10%;
+  box-shadow: rgba(240, 46, 170, 0.4) -5px 5px, rgba(240, 46, 170, 0.3) -10px 10px, rgba(240, 46, 170, 0.2) -15px 15px, rgba(240, 46, 170, 0.1) -20px 20px, rgba(240, 46, 170, 0.05) -25px 25px;
+}
+
+@media only screen and (max-width: 375px){
+  body{
+    font-size: 1.3em;
+  }
+}
+
+
+@media only screen and (max-width: 300px){
+  body{
+    font-size: 1em;
+  }
+}
